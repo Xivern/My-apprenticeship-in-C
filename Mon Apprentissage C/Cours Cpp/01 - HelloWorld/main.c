@@ -1,12 +1,12 @@
-//Directive de préprocesseur permettant de charger des bibliothèques pour notre programme
+//Preprocessor directive for loading libraries into our program
 #include <stdio.h>
 #include <stdlib.h>
 
-//Fonction principale de notre projet, celle-ci est exécutée lorsque nous lançons notre programme.
+//Main function of our project, this is executed when we launch our program.
 int main(int argc, char *argv[])
 {
-    printf("Hello world !\n");          //Permet d'afficher le texte "Hello world!" sur notre console.
-                                        //Backslash n permet d'effectuer un retour à la ligne.
-                                        //Backslash t permet quant à lui d'effectuer une tabulation.
+    printf("Hello world !\n");          //Allows to display the text "Hello world!" on our console.
+                                        //Backslash n allows to perform a line return.
+                                        //Backslash t allows you to perform a tab.
     return 0;
 }
